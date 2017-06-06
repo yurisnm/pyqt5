@@ -1,3 +1,4 @@
+
 import sys
 
 from PyQt5.QtChart import QChart
@@ -45,7 +46,6 @@ class MainChartWidget(QDialog):
         self.h_layout_middle = None
 
         self.selector = None
-
         self.init_ui()
 
 

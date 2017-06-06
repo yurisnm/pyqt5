@@ -1,3 +1,5 @@
+
+
 import sys
 
 from PyQt5.QtChart import QChart
@@ -16,7 +18,7 @@ from PyQt5.QtWidgets import QMainWindow
 from PyQt5.QtWidgets import QVBoxLayout
 from PyQt5.QtWidgets import QWidget
 
-from examples.charts.LineChart import ItemModel, TableView
+from charts.LineChart import ItemModel, TableView
 
 
 class GraphicsView(QGraphicsView):
